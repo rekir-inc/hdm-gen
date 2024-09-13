@@ -7,7 +7,7 @@ print("""  ______      ______      __  __      __      ______          __  __   
   \/_/ /_/    \/_____/    \/_/\/_/    \/_/    \/_/ /_/        \/_/\/_/    \/____/    \/_/  \/_/        \/_____/    \/_____/    \/_/ \/_/  
                                                                                                                                            """);
 
-url = 'https://hidemyname.info/ru/demo/'
+url = 'https://hidxxx.name/demo/'
 
 if 'Ваша электронная почта' in requests.get(url).text:
     
