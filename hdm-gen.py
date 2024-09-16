@@ -13,7 +13,7 @@ if 'Ваша электронная почта' in requests.get(url).text:
     
     email = input('Введите электронную почту для получения тестового периода: ')
 
-    response = requests.post('https://hidemn.org/ru/demo/success/', data={
+    response = requests.post('https://hidxxx.name/demo/success/', data={
         "demo_mail": f"{email}"
     })
 
