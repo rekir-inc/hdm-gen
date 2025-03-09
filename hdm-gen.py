@@ -11,13 +11,13 @@ print("""
   \/_/ /_/    \/_____/    \/_/\/_/    \/_/    \/_/ /_/        \/_/\/_/    \/____/    \/_/  \/_/        \/_____/    \/_____/    \/_/ \/_/  
                                                                                                                                            """);
 # домен сайта 1
-url = 'https://hidxxx.name/demo/'
+url = 'https://hmyname.net/demo/'
 
 if 'Ваша электронная почта' in requests.get(url).text:
     
     email = input('Введите электронную почту для получения тестового периода: ')
 # домен сайта 2
-    response = requests.post('https://hidxxx.name/demo/success/', data={
+    response = requests.post('https://hmyname.net/demo/success/', data={
         "demo_mail": f"{email}"
     })
 
